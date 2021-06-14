@@ -12,6 +12,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center 20%;
+  background-attachment: fixed;
 }
 
 code {
@@ -29,7 +30,7 @@ code {
 }
 
 .drum-pad {
-    width: 5em;
+    width: 9vw;
     height: 5em;
     margin: 10px;
 
@@ -43,4 +44,15 @@ code {
 .key-pressed {
     transform: scale(1.1);
 }
+
+#drum-machine {
+    width: 100vw;
+}
+
+#drum-machine > *{
+    width: 90vw;
+    font-size: 2.5vw;
+}
+
+
 
